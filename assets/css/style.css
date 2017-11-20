@@ -256,9 +256,6 @@ li {
 	}
 }
 @media screen and (max-width: 768px) {
-	h1 {
-		color: red;
-	}
 	.my-name {
 		width: 40%;
 		min-width: 210px;
@@ -313,11 +310,8 @@ li {
 	}
 }
 @media screen and (max-width: 640px) {
-	h1 {
-		color: black;
-	}
 	.my-name {
-		width: 40%;
+		width: 100%;
 		min-width: 210px;
 	}
 	.about-me, .all-content, .contact, .portfolio {
