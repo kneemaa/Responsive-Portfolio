@@ -87,7 +87,7 @@ li {
 .about-me, .contact, .portfolio {
 	color: black;
 	background-color: white;
-	width: 650px;
+	width: 100%;
 	float: left;
 	border-style: solid;
 	border-width: 2px;
@@ -171,6 +171,12 @@ li {
 	/position: absolute;
 	/top: 3px;
 }
+.name-field, .email-field, .message-field {
+	width: 100%;
+}
+.message-field {
+	height: 100px;
+}
 .divider1 {
 	right: 208px;
 }
@@ -196,10 +202,115 @@ li {
 	z-index: 999;
 }
 @media screen and (max-width: 980px) {
-	
+	.my-name {
+		width: 40%;
+		min-width: 210px;
+	}
+	.about-me, .all-content, .contact, .portfolio {
+		top: 30px;
+		width: 100%;
+		min-width: 320px;
+		/padding-right: 5px;
+		clear: both;
+		margin-bottom: 10px	
+	}
+	.text-block {
+		width: 100%;
+	}
+	.dogtown-tile, .bananastand-tile, .avatar-tile, .insideout-tile {
+		position: relative;
+		display: inline-block;
+		height: 445px;
+		width: 445px;
+		margin: 10px 10px 10px 25px;
+		background-color: grey;
+	}
+	.dogtown-name, .bananastand-name, .avatar-name, .insideout-name {
+		position: absolute;
+		width: 445px;
+		height: 35px;
+		color: white;
+		z-index: 997;
+		background-color: #4aaaa5;
+		margin-left: 25px;
+		text-align: center;
+		padding-top: 15px;
+		top: 345px;
+	}
+	.connect {
+		float: left;
+		width: 100%;
+		margin-left: 0px;
+		margin-bottom: 150px;
+	}
+	.nav-links {
+		right: 0px;
+		width: 300px;
+		min-width: 100px;
+		top: 0px;
+		margin-left: 400px;
+	}
+	.navigation {
+		position: relative;
+		padding: 3px;
+	}
 }
 @media screen and (max-width: 768px) {
-
+	h1 {
+		color: red;
+	}
+	.my-name {
+		width: 40%;
+		min-width: 210px;
+	}
+	.about-me, .all-content, .contact, .portfolio {
+		top: 30px;
+		width: 97%;
+		min-width: 320px;
+		/padding-right: 5px;
+		clear: both;
+		margin-bottom: 10px	
+	}
+	.text-block {
+		width: 100%;
+	}
+	.dogtown-tile, .bananastand-tile, .avatar-tile, .insideout-tile {
+		position: relative;
+		display: inline-block;
+		height: 320px;
+		width: 320px;
+		margin: 10px 10px 10px 25px;
+		background-color: grey;
+	}
+	.dogtown-name, .bananastand-name, .avatar-name, .insideout-name {
+		position: absolute;
+		width: 320px;
+		height: 35px;
+		color: white;
+		z-index: 997;
+		background-color: #4aaaa5;
+		margin-left: 25px;
+		text-align: center;
+		padding-top: 15px;
+		top: 230px;
+	}
+	.connect {
+		float: left;
+		width: 97%;
+		margin-left: 0px;
+		margin-bottom: 150px;
+	}
+	.nav-links {
+		right: 0px;
+		width: 300px;
+		min-width: 100px;
+		top: 0px;
+		margin-left: 400px;
+	}
+	.navigation {
+		position: relative;
+		padding: 3px;
+	}
 }
 @media screen and (max-width: 640px) {
 	h1 {
@@ -211,23 +322,22 @@ li {
 	}
 	.about-me, .all-content, .contact, .portfolio {
 		top: 30px;
-		width: 80%;
+		width: 100%;
 		min-width: 320px;
-		/padding-left: 5px;
-		padding-right: 5px;
-		/margin-left: 5px;
-		/margin-right: 5px;
+		/padding-right: 5px;
 		clear: both;
-		margin-bottom: 10px	}
+		margin-bottom: 10px	
+	}
 	.white-ribbon {
 		height: 85px;
 	}
+	.text-block {
+		width: 100%;
+	}
 	.connect {
 		float: left;
-		width: 400px;
-		/max-width: 410px;
-		/margin-left: 10%;
-		/align-content: center;
+		width: 100%;
+		margin-left: 0px;
 		margin-bottom: 150px;
 	}
 	.nav-links {
@@ -240,12 +350,6 @@ li {
 	.navigation {
 		position: relative;
 		padding: 3px;
-	}
-	.divider1 {
-		/right: 180px;
-	}
-	.divider2 {
-		/right: 112px;
 	}
 }
 
