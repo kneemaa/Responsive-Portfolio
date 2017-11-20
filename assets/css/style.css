@@ -328,6 +328,26 @@ li {
 		clear: both;
 		margin-bottom: 10px	
 	}
+	.dogtown-tile, .bananastand-tile, .avatar-tile, .insideout-tile {
+		position: relative;
+		display: inline-block;
+		height: 280px;
+		width: 280px;
+		margin: 10px 10px 10px 25px;
+		background-color: grey;
+	}
+	.dogtown-name, .bananastand-name, .avatar-name, .insideout-name {
+		position: absolute;
+		width: 280px;
+		height: 35px;
+		color: white;
+		z-index: 997;
+		background-color: #4aaaa5;
+		margin-left: 25px;
+		text-align: center;
+		padding-top: 15px;
+		top: 210px;
+	}
 	.white-ribbon {
 		height: 85px;
 	}
