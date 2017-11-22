@@ -87,7 +87,7 @@ li {
 .about-me, .contact, .portfolio {
 	color: black;
 	background-color: white;
-	width: 100%;
+	width: 650px;
 	float: left;
 	border-style: solid;
 	border-width: 2px;
@@ -106,9 +106,14 @@ li {
 .contact-form {
 	line-height: 25px;
 }
+.name-field, .email-field, .message-field {
+	width: 100%;
+}
 .name-field, .email-field {
-	width: 600px;
 	height: 20px;
+}
+.message-field {
+	height: 100px;
 }
 .dogtown-wrapper, .bananastand-wrapper, .avatar-wrapper, .insideout-wrapper {
 	position: relative;
@@ -171,12 +176,6 @@ li {
 	/position: absolute;
 	/top: 3px;
 }
-.name-field, .email-field, .message-field {
-	width: 100%;
-}
-.message-field {
-	height: 100px;
-}
 .divider1 {
 	right: 208px;
 }
@@ -211,7 +210,7 @@ li {
 		width: 100%;
 		min-width: 320px;
 		/padding-right: 5px;
-		clear: both;
+		float: left;
 		margin-bottom: 10px	
 	}
 	.text-block {
@@ -262,7 +261,7 @@ li {
 	}
 	.about-me, .all-content, .contact, .portfolio {
 		top: 30px;
-		width: 97%;
+		width: 98%;
 		min-width: 320px;
 		/padding-right: 5px;
 		clear: both;
@@ -293,7 +292,7 @@ li {
 	}
 	.connect {
 		float: left;
-		width: 97%;
+		width: 98%;
 		margin-left: 0px;
 		margin-bottom: 150px;
 	}
@@ -316,7 +315,7 @@ li {
 	}
 	.about-me, .all-content, .contact, .portfolio {
 		top: 30px;
-		width: 100%;
+		width: 98%;
 		min-width: 320px;
 		/padding-right: 5px;
 		clear: both;
@@ -350,20 +349,20 @@ li {
 	}
 	.connect {
 		float: left;
-		width: 100%;
+		width: 98%;
 		margin-left: 0px;
 		margin-bottom: 150px;
 	}
 	.nav-links {
-		right: 0px;
-		width: 300px;
+		right: -40px;
+		width: 400px;
 		min-width: 100px;
 		top: 45px;
-		margin-left: 400px;
+		margin-left: 300px;
 	}
 	.navigation {
 		position: relative;
-		padding: 3px;
+		padding: 25px;
 	}
 }
 
